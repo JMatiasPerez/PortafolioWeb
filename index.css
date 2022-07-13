@@ -1,0 +1,489 @@
+ header, section, footer {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* NAVBAR */
+header nav {
+    margin: 0;
+    height: 55px;
+    border: 3px solid black;
+}
+header nav li {
+    list-style: none;
+    padding: 20px;
+    margin: 0px;
+}
+header nav li ul {
+    display: inline;
+}
+header nav li ul a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Orbitron', 'Sans-serif';
+    font-size: 25px;
+    margin-left: 75px;
+    font-weight: bold;
+}
+
+
+/* efecto Letra fondo  */
+#cont-img-front {
+    height: 550px;
+    background-image: url(firewathc.jpg);
+    background-position: center;
+    margin-top: 5px;
+}
+#cont-img-front-title {
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 220px;
+    position: relative;
+    top: 100px;
+}
+
+
+/* Seccion "quien soy" */
+#quiensoy {
+    margin-top: 70px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    height: 600px;
+}
+#quiensoy h2 {
+    font-size: 52px;
+    font-family: 'Orbitron';
+    margin-left: 370px;
+}
+#quiensoy div img {
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 60px;
+    float: left;
+}
+#quiensoy p {
+    height: 200px;
+    font-family: 'Orbitron', 'sans-serif';
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 100px;
+    left: 10px;
+}
+
+
+/* Mini-Seccion me encanta */
+#algunosdatos h3 {
+    position: relative;
+    margin-top: 280px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Orbitron', 'Sans-serif';
+}
+#datos {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid black;
+}
+#datos li {
+    width: 200px;
+    height: 150px;
+    list-style: none;
+}
+#datos li img {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 75px;
+    top:25px;
+}
+
+
+/* Seccion Habilidades  */
+#habilidades {
+    height: 400px;
+    position: relative;
+    top: 300px;
+    
+}
+#habilidades h3 {
+    font-family: 'Orbitron';
+    font-size: 52px;
+    text-align: center;
+    display: block;
+}
+#habilidades p {
+    font-size: 19px;
+    font-family: 'Orbitron';
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
+}
+#cont-habilidades {
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+.cont-cont-habilidades {
+    width: 150px;
+    margin: 35px;
+    margin-left: 20px;
+}
+.cont-cont-habilidades img {
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin-left: 120px;
+}
+.cont-cont-habilidades p {
+    text-align: center;
+    position: relative;
+    left: 120px;
+}
+
+/* Seccion Cursos realizados */
+#cursosrealizados{
+    height: 650px;
+    position: relative;
+    top: 400px;
+    border-bottom: 3px solid black;
+}
+#cont-titulo-cursos h3{
+    font-family: 'Orbitron';
+    font-size: 32px;
+    text-align: center;
+}
+#cursos {
+    height: 400px;
+}
+#cursos img {
+    height: 90px;
+    position: relative;
+    left: 390px;
+}
+#cursos h4 {
+    font-family: 'Orbitron';
+    font-size: 28px;
+    text-align: center;
+}
+#cursos p {
+    font-family: 'Orbitron';
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+}
+#cursos li {
+   list-style:none;
+   
+}
+#cursos li ul {
+    font-family: 'Orbitron' ;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Seccion Proyectos */
+#proyectos {
+    height: 550px;
+    margin-top: 450px;
+}
+#proyectos h2 {
+    font-family: 'Orbitron';
+    font-size: 52px;
+    text-align: center;
+}
+#cont-proyectoswebs {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.proyectos-webs {
+    width: 280px;
+    margin: 5px;
+    border: 3px solid black;
+}
+.proyectos-webs p {
+    font-family: 'Orbitron';
+    font-size: 22px;
+    text-align: center;
+}
+/* Seccion Footer */
+#cv {
+    float: left;
+    width: 240px;
+}
+#cv p{
+    font-family: 'Orbitron';
+    font-size: 22px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: black;
+}
+footer {
+    height: 150px;
+    border: 4.5px solid black;
+    background-color: white;
+    }
+#footerimg img {
+    width: 100px;
+    position: relative;
+    left:350px
+}
+footer p {
+    color: black;
+    font-family: 'Orbitron';
+    font-size: 22px;
+    text-align: center;
+}
+@media all and (min-width:600px) and (max-width: 1023px) {
+    header, section, footer {
+        width: 950px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    
+    /* NAVBAR */
+    header nav {
+        margin: 0;
+        height: 55px;
+        border: 3px solid black;
+    }
+    header nav li {
+        list-style: none;
+        padding: 20px;
+        margin: 0px;
+    }
+    header nav li ul {
+        display: inline;
+    }
+    header nav li ul a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Orbitron', 'Sans-serif';
+        font-size: 25px;
+        margin-left: 75px;
+        font-weight: bold;
+    }
+    
+    
+    /* efecto Letra fondo  */
+    #cont-img-front {
+        height: 550px;
+        background-image: url(firewathc.jpg);
+        background-position: center;
+        margin-top: 5px;
+    }
+    #cont-img-front-title {
+        font-size: 30px;
+        font-family: 'Orbitron', sans-serif;
+        margin-left: 220px;
+        position: relative;
+        top: 100px;
+    }
+    
+    
+    /* Seccion "quien soy" */
+    #quiensoy {
+        margin-top: 70px;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+        height: 600px;
+    }
+    #quiensoy h2 {
+        font-size: 52px;
+        font-family: 'Orbitron';
+        margin-left: 370px;
+    }
+    #quiensoy div img {
+        height: 300px;
+        border-radius: 50%;
+        margin-bottom: 60px;
+        float: left;
+    }
+    #quiensoy p {
+        height: 200px;
+        font-family: 'Orbitron', 'sans-serif';
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        top: 100px;
+        left: 10px;
+    }
+    
+    
+    /* Mini-Seccion me encanta */
+    #algunosdatos h3 {
+        position: relative;
+        margin-top: 280px;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Orbitron', 'Sans-serif';
+    }
+    #datos {
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 3px solid black;
+    }
+    #datos li {
+        width: 200px;
+        height: 150px;
+        list-style: none;
+    }
+    #datos li img {
+        width: 60px;
+        height: 60px;
+        position: relative;
+        left: 75px;
+        top:25px;
+    }
+    
+    
+    /* Seccion Habilidades  */
+    #habilidades {
+        height: 400px;
+        position: relative;
+        top: 300px;
+        
+    }
+    #habilidades h3 {
+        font-family: 'Orbitron';
+        font-size: 52px;
+        text-align: center;
+        display: block;
+    }
+    #habilidades p {
+        font-size: 19px;
+        font-family: 'Orbitron';
+        font-weight: bold;
+        margin: 10px;
+        padding: 5px;
+    }
+    #cont-habilidades {
+        height: 430px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+    }
+    .cont-cont-habilidades {
+        width: 150px;
+        margin: 35px;
+        margin-left: 20px;
+    }
+    .cont-cont-habilidades img {
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        margin-left: 120px;
+    }
+    .cont-cont-habilidades p {
+        text-align: center;
+        position: relative;
+        left: 120px;
+    }
+    
+    /* Seccion Cursos realizados */
+    #cursosrealizados{
+        height: 650px;
+        position: relative;
+        top: 400px;
+        border-bottom: 3px solid black;
+    }
+    #cont-titulo-cursos h3{
+        font-family: 'Orbitron';
+        font-size: 32px;
+        text-align: center;
+    }
+    #cursos {
+        height: 400px;
+    }
+    #cursos img {
+        height: 90px;
+        position: relative;
+        left: 390px;
+    }
+    #cursos h4 {
+        font-family: 'Orbitron';
+        font-size: 28px;
+        text-align: center;
+    }
+    #cursos p {
+        font-family: 'Orbitron';
+        font-size: 19px;
+        font-weight: bold;
+        text-align: center;
+    }
+    #cursos li {
+       list-style:none;
+       
+    }
+    #cursos li ul {
+        font-family: 'Orbitron' ;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    /* Seccion Proyectos */
+    #proyectos {
+        height: 550px;
+        margin-top: 450px;
+    }
+    #proyectos h2 {
+        font-family: 'Orbitron';
+        font-size: 52px;
+        text-align: center;
+    }
+    #cont-proyectoswebs {
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .proyectos-webs {
+        width: 280px;
+        margin: 5px;
+        border: 3px solid black;
+    }
+    .proyectos-webs p {
+        font-family: 'Orbitron';
+        font-size: 22px;
+        text-align: center;
+    }
+    /* Seccion Footer */
+    #cv {
+        float: left;
+        width: 240px;
+    }
+    #cv p{
+        font-family: 'Orbitron';
+        font-size: 22px;
+        margin-left: 10px;
+        font-weight: bold;
+        color: black;
+    }
+    footer {
+        height: 150px;
+        border: 4.5px solid black;
+        background-color: white;
+        }
+    #footerimg img {
+        width: 100px;
+        position: relative;
+        left:350px
+    }
+    footer p {
+        color: black;
+        font-family: 'Orbitron';
+        font-size: 22px;
+        text-align: center;
+    }
+}
