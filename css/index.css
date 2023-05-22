@@ -1,0 +1,330 @@
+@font-face {
+    font-family: 'hack' ;
+    src: url(../font/nav/hack/Hack-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    border: 1px solid black;
+    margin: 15px 10px 10px 10px;
+    height: 100px;
+    width: auto;
+}
+nav {
+    height: auto;
+    width: auto;
+}
+nav ul {
+    height: 60px;
+    margin: 15px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 10px;
+} 
+nav ul li {
+ list-style: none;
+ display: inline-block;
+ width: auto;
+ height: auto;
+
+}
+ nav ul li a {
+    font-size: 25px;
+    font-family: 'hack';
+    color: #000;
+    text-decoration: none;
+}
+
+#principal {
+    width: auto;
+    height: 700px;
+    background-image:url(../img/principal.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: center;
+
+}
+#texto {
+    position: relative;
+    top: 160px;
+    height: 50px;
+    font-family: 'hack';
+    font-size: 25px;
+    color: #000;
+
+}
+
+#quien-soy {
+    margin: 20px 5px 0 25px;
+    width: auto;
+    height: auto;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+#quien-soy h2 {
+    text-align: center;
+    font-family: 'hack';
+    font-size: 50px;
+}
+#quien-soy-container{
+    border-top: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+#quien-soy-container img{
+     width: 600px;
+     height: 700px;
+     border-radius: 30px;
+     margin-top: 25px;
+     margin-left: 25px;
+     margin: 25px 25px 25px  ;
+}
+#quien-soy-container p {
+    font-size: 20px;
+    line-height: 27px;
+    padding:5px;
+    border: 3px solid rgb(51, 90, 219);
+    border-radius: 3%;
+    font-family: 'hack';
+    width: 390px;
+    height: 530px;
+    margin-top: 110px;
+    text-align: center;
+   
+}
+#habilidades {
+    width: auto;
+    height: auto;
+    margin: 20px 5px 0 25px;
+    
+}
+
+#habilidades h2 {
+    text-align: center;
+    font-family: 'hack';
+    font-size: 50px;
+}
+#container-habilidades {
+    border-top: 3px solid black ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+}
+.stack img{
+    height: 300x;
+    width: 300px;
+    background-color: transparent;
+    margin-top: 45px;
+}
+.stack {
+    height: 400px;
+    width: 300px;
+    
+}
+
+.stack p {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.stack p a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'hack';
+}
+
+#proyectos {
+    margin: 20px 5px 0 25px;
+    width: auto;
+    height: auto;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+#proyectos h2 {
+    text-align: center;
+    font-family: 'hack';
+    font-size: 50px;
+}
+
+#container-proyectos {
+    border-top: 3px solid black ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: auto;
+    height: auto;
+    overflow: auto;
+    flex-direction: row;
+}
+
+.proyecto {
+    width: 400px;
+    height: 400px;
+    margin: 25px;
+}
+
+.proyecto img {
+    width: 400px;
+    height: 300px;
+    margin-top: 25px;
+    opacity: 80%;
+}
+.proyecto a img:hover {
+    opacity: 20%;
+}
+
+.proyecto p {
+    width: 250px;
+    font-size: 20px;
+    font-family: 'hack';
+    text-align: center;
+    position: relative;
+    bottom: 170px;
+    left: 80px;
+}
+#contacto{
+    margin: 0px 5px 0 25px;
+    height: auto;
+    
+}
+#contacto h2 {
+    text-align: center;
+    font-family: 'hack';
+    font-size: 50px;
+    border-bottom:3px solid black ;
+}
+#container-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+#container-form form {
+    height: auto;
+    margin-top: 25px;
+}
+#container-form form input {
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    border: 2px  solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px;
+    font-size: 16px;
+    font-family: 'hack';
+}
+
+#container-form-container {
+    display: flex;
+    width: auto;
+    height: 400px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+textarea{
+    width: 900px;
+    height:450px;
+    border: 2px  solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px;
+    font-size: 16px;
+    resize: none;
+    font-size: 15px;
+    font-family: 'hack';
+}
+
+#botonEnviar {
+    margin-top: 15px;
+    width: 350px;
+    height: 60px;
+    background-color: rgb(230, 228, 225);
+    border: 2px  solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px;
+    font-size: 16px;
+    font-family: 'hack';
+}
+
+footer {
+    margin: 20px 5px 0 25px;
+    width: auto;
+    height: 250px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+}
+#container-footer-uno{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+#container-footer-uno h3 {
+    font-size: 30px;
+    font-family: 'hack';
+    color: dodgerblue;
+}
+#container-footer-uno a {
+    text-decoration: none;
+    text-align: center;
+}
+#container-footer-uno a img {
+    width: 60px;
+}
+#container-footer-dos{
+    width: 270px;
+    display: flex;
+    align-items: center
+}
+#container-footer-dos a{
+    text-decoration: none;
+}
+#container-footer-dos a h3  {
+    font-size: 45px;
+    font-family: 'hack';
+    color: cornflowerblue; 
+}
+
+#container-footer-tres{
+    width: 180px;
+    display: flex;
+}
+#container-footer-tres ul li {
+    list-style: none;
+}
+#container-footer-tres ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'hack';
+    padding: 10px;
+    color: dodgerblue;
+}
